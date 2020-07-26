@@ -1,0 +1,380 @@
+/* RESET */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blocckquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #ffffff;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section,
+div,
+form,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #b30000;
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:active {
+    outline: 0px;
+}
+
+
+a.linkFotter {
+    color: #00ffd0;
+    font-weight: bold;
+    cursor: auto;
+}
+
+.linkme {
+    color: red;
+    font-family: lato;
+    font-weight: 900;
+}
+
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+
+a {
+    outline: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* letter-spacing property 
+	
+<a class= "linkme" href= "http://www.nabilgraphics.com/printing-service"> NABIL GRAPHICS </a>
+
+*/
+
+/* ======  =    =    =    =     =    =    =  =   =   =
+Index
+======================================================== */
+
+.topbar {
+    background-color: black;
+    min-height: 31px;
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 5px;
+}
+
+.leftbar {
+    float: left;
+}
+
+.rightbar {
+    float: right;
+}
+
+.baritem {
+    display: inline-block;
+    color: white;
+}
+
+.leftbar .baritem {
+    padding-left: 25px;
+}
+
+.rightbar .baritem {
+    padding-right: 25px;
+}
+
+.baritem:hover {
+    color: rgb(255, 255, 0);
+}
+
+
+
+
+.topbar_follow {
+    position: absolute;
+    top: 5px;
+    right: 290px;
+}
+
+.topbar_follow a {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.topbar_follow img {
+    width: 20px;
+    height: 20px;
+    -moz-transition: -moz-transform ease 0.6s;
+    -webkit-transition: -webkit-transform ease 0.6s;
+    -o-transition: -o-transform ease 0.6s;
+    -ms-transition: -ms-transform ease 0.6s;
+    transition: transform ease 0.6s;
+}
+
+.topbar_follow img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toplogo {
+    width: 12%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*------------ menu start --- ++++ */
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navmenu {
+    text-align: center;
+    background-color: #d40303;
+}
+
+.navcan li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navcan a {
+    display: inline-block;
+    padding: 25px 40px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navcan a:hover {
+    background-color: #c80000;
+    text-decoration: none;
+    /* color: #fff; */
+    text-shadow: 0px 4px 4px black;
+}
+
+
+/* ---------------------------------------- menu end */
+
+/* this iz Footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ftrwidth {
+    width: 1190px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.linkz a {
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: -10px;
+    width: 200px;
+    height: 30px;
+    display: block;
+}
+
+.linkz a:hover {
+    background-color: red;
+}
+
+.meta {
+    float: left;
+    /*padding: 0 15px;*/
+    padding: 0 0px;
+}
+
+.ftr_prdcts {
+    /*width: 480px;*/
+    width: 329px;
+}
+
+h2.ftr_tittle {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: open sans;
+    font-weight: bold;
+}
+
+.prdct_list {}
+
+.prdct_list ul {
+    float: left;
+    width: 220px;
+}
+
+.prdct_list > ul > li {}
+
+.ftrinfo {
+    width: 325px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    padding-left: 35px;
+}
+
+.inform {}
+
+.ftrcntct {
+    padding-left: 40px;
+}
+
+.ftrcntct p {
+    font-size: 13px;
+}
+
+span.absb {
+    font-size: 20px;
+    color: #ff5800;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+span.mailta {
+    font-size: 20px;
+    color: #ffa146;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p.tumi {
+    margin-left: 40px;
+    letter-spacing: 3px;
+}
+
+.ftr_nmbr {}
+
+.ftr_mail {}
+
+.footer_follow {}
+
+.footer_follow a {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+address {
+    margin: 10px 2px;
+}
+
+
+.footer_follow h4 {
+    text-align: center;
+}
+
+
+.footer_follow img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.bottom_link {
+    height: 30px;
+    background-color: #0f0f1e;
+    text-align: center;
+    padding-top: 7px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+
+
+
+/* -------------------------- Footer end */
+
+/* ======  =    =    =    =     =    =    =  =   =   =
+Index  -   E N D
+======================================================== */

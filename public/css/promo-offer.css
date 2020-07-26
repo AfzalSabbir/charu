@@ -1,0 +1,153 @@
+.promoHead {
+    color: white;
+    background-color: #e30513;
+    margin-top: 25px;
+    border-top: 1px solid #c0c0c0;
+    padding: 15px 0 30px;
+}
+
+.promoHead h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.promoBody {}
+
+.promoTexttop {
+    margin: 30px 5px 30px;
+    line-height: inherit;
+}
+.promoBar {
+    width: 70%;
+    float: left;
+}
+
+.promoTab {
+    height: auto;
+    border: 1px solid #efefef;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0 20px;
+}
+
+.barPic {
+    float: left;
+    width: 170px;
+    height: auto;
+    padding: 10px;
+}
+
+.barPic img {}
+
+.barDetail {
+    padding: 5px;
+}
+
+.barDetail h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #474747;
+}
+
+.barDetail p {
+    margin: 10px 0 10px;
+    font-size: medium;
+}
+
+.barButton {
+    float: right;
+    margin: 20px;
+    padding: 15px 30px 20px;
+    background: #05bd00;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+.barButton:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #00d000;
+}
+
+
+.promoSidebar {
+    width: 30%;
+    float: left;
+}
+
+.sideFrst {
+    margin: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sideFrst p {
+    padding: 5px 15px 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<   Media Screen code Start  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    .promoBar {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .promoSidebar {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .sideFrst p {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+
+    .barDetail h1 {
+        font-size: x-large;
+        line-height: 35px;
+    }
+
+    .barButton {
+        margin: 20px auto;
+        padding: 10px 20px 14px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .promoHead {
+        padding: 15px 0 22px;
+    }
+
+    .promoHead h1 {
+        font-size: 28px;
+    }
+
+    .barPic {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+}

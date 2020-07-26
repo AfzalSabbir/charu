@@ -1,0 +1,218 @@
+hr {
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+
+
+
+.resourceMenu {
+	text-align: center;
+	line-height: 4;
+	border: 1px solid #9f9f9f;
+	background-color: #f3f3f4;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 90%;
+}
+
+
+.resourceMenu a {
+	padding: 0px 10px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	color: #6d6e71;
+}
+.resourceMenu a:hover {	
+	color: black;
+}
+
+.headLine {
+	color: white;
+	background-color: #e30513;
+	margin-top: 25px;
+	border-top: 1px solid #c0c0c0;
+	padding: 15px 0 30px;
+}
+
+.headLine h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.mainDetails{
+	background-color: #cecece;	
+	
+}
+
+
+.mainbodyDetails {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.maindodyLeft{
+	width: 350px;
+	float: left;
+	padding: 20px 0 20px;
+}
+
+
+.hangtagText {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 1200px;
+}
+
+
+.hangtagText p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.scndtext p {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.maindodyLeft h4 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #353535;
+}
+
+.maindodyLeft p {
+	font-size: 20px;
+	color: #272727;
+}
+.maindodyRight{
+	width: 650px;
+	float: left;
+	padding: 25px;
+}
+
+.offerButton {
+	background-color: #04ab00;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.offerButton:hover {
+	background-color: #05da00;
+	color: white;
+	
+}
+
+
+
+.pentextLine {
+    color: white;
+    background-color: #cecece;
+    padding: 70px;
+}
+
+
+
+.pentextLine p {
+    font-size: 20px;
+    color: #272727;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<   Media Screen code Start  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+@media screen and (min-width: 0px) and (max-width: 980px) {
+	
+.headLine h1 {
+	font-size: 24px;
+}	
+	
+.mainDetails{
+	
+}
+
+
+.mainbodyDetails {
+	width: 100%;
+}
+
+.maindodyLeft{
+	width: 90%;
+	float: none;
+	padding: 20px;
+}
+
+.maindodyLeft h4 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #353535;
+}
+
+.maindodyLeft p {
+	font-size: 20px;
+	color: #272727;
+}
+.maindodyRight{
+	width: 90%;
+	float: none;
+	padding: 20px;
+}
+
+.offerButton {
+	
+	font-size: medium;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

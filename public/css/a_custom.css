@@ -1,0 +1,111 @@
+/**
+ * Fonts
+ **/
+
+
+
+/**
+ * **************Add Here******************
+ **/
+
+ .active {
+    background: red !important;
+    color: #fff !important;
+ }
+
+/* DatePicker */
+span .fa-calendar {
+  height: 37px !important;
+  right: 2px !important;
+}
+.input-group .pickdate {
+  border-radius: 4px;
+}
+
+/*Left Right Top bottom*/
+.l-15{left: 15px !important;}
+.r-15{right: 15px !important;}
+.t-15{top: 15px !important;}
+.b-15{bottom: 15px !important;}
+
+.l-0{left: 0 !important;}
+.r-0{right: 0 !important;}
+.t-0{top: 0 !important;}
+.b-0{bottom: 0 !important;}
+
+.l-1{left: 4px !important;}
+.r-1{right: 4px !important;}
+.t-1{top: 4px !important;}
+.b-1{bottom: 4px !important;}
+
+.l-2{left: 8px !important;}
+.r-2{right: 8px !important;}
+.t-2{top: 8px !important;}
+.b-2{bottom: 8px !important;}
+
+.l-3{left: 12px !important;}
+.r-3{right: 12px !important;}
+.t-3{top: 12px !important;}
+.b-3{bottom: 12px !important;}
+
+.l-4{left: 16px !important;}
+.r-4{right: 16px !important;}
+.t-4{top: 16px !important;}
+.b-4{bottom: 16px !important;}
+
+.l-5{left: 20px !important;}
+.r-5{right: 20px !important;}
+.t-5{top: 20px !important;}
+.b-5{bottom: 20px !important;}
+
+.zi-1{z-index: 1 !important;}
+.zi-10{z-index: 10 !important;}
+.zi-50{z-index: 50 !important;}
+.zi-100{z-index: 100 !important;}
+.zi-1000{z-index: 1000 !important;}
+
+.rotate_90{
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*
+* Cursor
+*/
+.cursor-alias {cursor: alias !important;}
+.cursor-all-scroll {cursor: all-scroll !important;}
+.cursor-auto {cursor: auto !important;}
+.cursor-cell {cursor: cell !important;}
+.cursor-context-menu {cursor: context-menu !important;}
+.cursor-col-resize {cursor: col-resize !important;}
+.cursor-copy {cursor: copy !important;}
+.cursor-crosshair {cursor: crosshair !important;}
+.cursor-default {cursor: default !important;}
+.cursor-e-resize {cursor: e-resize !important;}
+.cursor-ew-resize {cursor: ew-resize !important;}
+.cursor-grab {cursor: grab !important;}
+.cursor-grabbing {cursor: grabbing !important;}
+.cursor-help {cursor: help !important;}
+.cursor-move {cursor: move !important;}
+.cursor-n-resize {cursor: n-resize !important;}
+.cursor-ne-resize {cursor: ne-resize !important;}
+.cursor-nesw-resize {cursor: nesw-resize !important;}
+.cursor-ns-resize {cursor: ns-resize !important;}
+.cursor-nw-resize {cursor: nw-resize !important;}
+.cursor-nwse-resize {cursor: nwse-resize !important;}
+.cursor-no-drop {cursor: no-drop !important;}
+.cursor-none {cursor: none !important;}
+.cursor-not-allowed {cursor: not-allowed !important;}
+.cursor-pointer {cursor: pointer !important;}
+.cursor-progress {cursor: progress !important;}
+.cursor-row-resize {cursor: row-resize !important;}
+.cursor-s-resize {cursor: s-resize !important;}
+.cursor-se-resize {cursor: se-resize !important;}
+.cursor-sw-resize {cursor: sw-resize !important;}
+.cursor-text {cursor: text !important;}
+.cursor-url {cursor: url(myBall.cur),auto !important;}
+.cursor-w-resize {cursor: w-resize !important;}
+.cursor-wait {cursor: wait !important;}
+.cursor-zoom-in {cursor: zoom-in !important;}
+.cursor-zoom-out {cursor: zoom-out !important;}

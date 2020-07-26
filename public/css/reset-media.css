@@ -1,0 +1,327 @@
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   Media Screen code Start  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 0px) and (max-width: 920px) {
+    .topbar {
+        display: none;    /* hide it on small screens */
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1250px) {
+   .topbar_follow {
+	position: static;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding-top: 5px;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+   .topbar_follow a{
+	margin-right: -1px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .toplogo {
+    width: 25%;    
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 380px) {
+    .toplogo {
+    width: 40%;    
+	}
+}
+
+/* ------------------ menu start */
+
+@media screen and (min-width: 1001px) and (max-width: 1490px) {
+    .navcan a {
+        padding: 20px 24px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 842px) and (max-width: 1000px) {
+    .navcan a {
+        padding: 20px 14px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 631px) and (max-width: 841px) {
+    .navcan a {
+        padding: 15px 8px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 630px) {
+    .navcan a {
+        padding: 11px 6px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 558px) and (max-width: 574px) {
+    .navcan a {
+        padding: 11px 5px;
+        color: white;
+        font-size: 9px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 557px) {
+    .navcan a {
+        padding: 11px 5px;
+        color: white;
+        font-size: 8px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 470px) {
+    .hidebtn {
+        display: none;
+    }
+    .navcan a {
+        display: inline-block;
+        padding: 11px 5px;
+        color: white;
+        font-size: 9px;
+        font-weight: 100;
+    }
+}
+
+
+/* ---------------------- menu end */
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .btn-default {
+        color: #fff;
+        background-color: #f30;
+        border-color: #f00;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menuToogle{
+		display:none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 980px) {
+	.menuToogle{
+		display:block;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 980px) {
+
+
+.navmenu {
+	display: none;
+}
+
+.menuToogle {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+.navToogle li {
+	padding: 7px;
+	border-bottom: 1px solid #a2a2a2;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 1px;
+	}
+
+.navToogle{
+	display:none;
+	margin-bottom:7px;
+	background: #ffe3cc;
+}
+
+
+.aqright {
+	float: right;
+}
+
+.aqleft {
+	float: left;
+}
+.aqaq {
+	width: 100%;
+	background-color: orangered;
+	padding: 10px;
+	font-size: 17px;
+	cursor: pointer;
+	color: beige;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		/* this iz Footer */
+		
+
+@media screen and (min-width: 921px) and (max-width: 1189px) {
+	.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	.ftrwidth {
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	}	
+	.meta {
+	float: left;
+	padding:10px 10px;
+	}
+    .prdct_list ul {
+    float: left;
+	}
+	.ftr_prdcts {
+    width: 51%;
+	}
+	.ftrcntct {
+    width: 29%;
+	}
+	.ftrinfo {
+	width: 20%;
+	border: none;
+	}
+	.ftrcntct .fa-2x {
+	font-size: 1.25em;
+	}
+	span.absb {
+	font-size: 15px;
+	}
+	span.mailta {
+	font-size: 14px;
+	letter-spacing: 0.35px;
+	}
+}		
+	
+@media screen and (min-width: 0px) and (max-width: 920px) {
+	.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	h2.ftr_tittle {
+	letter-spacing: 5px;
+	}
+	.ftrwidth {
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	}	
+	.meta {
+	float: none;
+	padding:10px 10px;
+	}
+    .prdct_list ul {
+    float: none;
+	}
+	.ftrinfo {
+	width: 100%;
+	border: none;
+	}
+	.ftrcntct .fa-2x {
+	font-size: 1.25em;
+	}
+	span.absb {
+	font-size: 15px;
+	}
+	span.mailta {
+	font-size: 14px;
+	letter-spacing: 0.35px;
+	}
+}		
+
+	/* -------------------------- Footer end */
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
